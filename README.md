@@ -33,7 +33,7 @@ This shows a very small sample of the ways the GUI allows the user to query the 
 Application Description:
 
 The workflow for utilizing this application essentially has three stages…
-1) Team members input their allocated man hours into the data input file, which is a protected excel spread sheet.  At the end of every week, they email the spread sheet to the service department manager.
+1) Team members input their allocated man hours into the data input file, which is a protected excel spread sheet.  At the end of every week, they email the spreadsheet to the service department manager.
 2) The data is uploaded into the SQL database using the GUI which allows for the selection of multiple files at a time.
 3) Using the GUI the manager can define how the database is queried.  After the query conditions are defined and the user clicks the append report button the application queries the database as defined by the user.  Then creates the bar graph shown in the Sample Output image files using matplotlib.  Finally, the query condition and resulting bar graph are appended to a word document.  Additionally, the data parsed into matplotlib is used to create a table in the word document.  The word document can either be any existing word document or the program can generate a new word document.  These conditions are defined by the user before clicking the append report button.
 

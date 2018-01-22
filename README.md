@@ -6,6 +6,14 @@
 
 *  __Department:__ Hardware & Software Customer Support
 
+*  __Application Description:__ The workflow for utilizing this application essentially has three stages
+  1.  Team members input their allocated man hours into the data input file, which is a protected excel spread sheet.  At the end of every week, they email the spreadsheet to the service department manager.
+  1. The manager uploads the excel files into the SQL database using the GUI which allows for the selection of multiple files at a time.
+  1. The GUI allows the manager to define how the database is queried.  After the query conditions are defined and the user clicks the *append report* button the application queries the database as defined by the user.  Then creates the bar graph shown in the Sample Output image files (shown below) using matplotlib.  Finally, the query condition and resulting bar graph are appended to a word document.  Additionally, the data parsed into matplotlib is used to create a table in the word document.  The word document can be any existing word document or the program can generate a new word document.  The file path of the existing or new word document is defined by the user before clicking the append report button.
+
+The GUI also allows the user to add or delete employees from the database or query the database to check if a given employee’s data input file has been uploaded to the database.  This provides the user (manager) a tool to easily track which employees have turned in their data input file.
+
+
 *  __GUI:__ Below are just a few examples of the features the GUI provides the user.
 ![GUI_ImportData.png](images/GUI_AddEmployee.png)
 ![GUI_ImportData.png](images/GUI_EmployeeInfo.png)
@@ -38,12 +46,3 @@ An example report when the database was queried for the total man hours spent by
 ![SampleOutput_ IndividualTeamMember _SingleCategory.png](images/SampleOutput_ IndividualTeamMember _SingleCategory.png)
 
 This shows a very small sample of the ways the GUI allows the user to query the database.  Furthermore, you can define the data aggregation method as a summation or an average.  If you select average, you can average the queried data by: day, week, month, quarter, or year.
-
-### Application Description:
-
-__The workflow for utilizing this application essentially has three stages__
-  1.  Team members input their allocated man hours into the data input file, which is a protected excel spread sheet.  At the end of every week, they email the spreadsheet to the service department manager.
-  1. The data is uploaded into the SQL database using the GUI which allows for the selection of multiple files at a time.
-  1. Using the GUI the manager can define how the database is queried.  After the query conditions are defined and the user clicks the append report button the application queries the database as defined by the user.  Then creates the bar graph shown in the Sample Output image files using matplotlib.  Finally, the query condition and resulting bar graph are appended to a word document.  Additionally, the data parsed into matplotlib is used to create a table in the word document.  The word document can be any existing word document or the program can generate a new word document.  The file path of the existing or new word document is defined by the user before clicking the append report button.
-
-The GUI also allows the user to add or delete employees from the database or query the database to check if a given employee’s data input file has been uploaded to the database.  This provides the user (manager) a tool to easily track which employees have turned in their data input file.

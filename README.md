@@ -43,6 +43,6 @@ An example report when the database was queried for the total man hours spent by
 ![SampleOutput_IndividualTeamMember_AllCategories.png](images/SampleOutput_IndividualTeamMember_AllCategories.png)
 
 An example report when the database was queried for the total man hours spent by an individual member of the service department on a single category thus the corresponding subcategories are shown.
-![SampleOutput_ IndividualTeamMember _SingleCategory.png](images/SampleOutput_ IndividualTeamMember _SingleCategory.png)
+![SampleOutput_IndividualTeamMember_SingleCategory.png](images/SampleOutput_IndividualTeamMember_SingleCategory.png)
 
 This shows a very small sample of the ways the GUI allows the user to query the database.  Furthermore, you can define the data aggregation method as a summation or an average.  If you select average, you can average the queried data by: day, week, month, quarter, or year.

@@ -19,7 +19,7 @@ The GUI also allows the user to add or delete employees from the database or que
 ![GUI_ImportData.png](images/GUI_EmployeeInfo.png)
 
 
-*  __Sample Raw Data:__
+*  __Sample Raw Data: (To maintain confidentiality the data examples shown are not “real” and are simulated data sets.)__
 Each member of the service department will fill out this form and email it to the service department manager each week.  Every possible task that a member of the service department team could spend time doing have been broken into 13 categories.  Each category is further sub-divided into 3 to 14 subcategories.  The employee is expected to account for their time during the course of a week.
 
 ![GUI_ImportData.png](images/GUI_ImportData.png)
@@ -32,7 +32,7 @@ Each member of the service department will fill out this form and email it to th
 
 There are 14 total tables: one for each of the 13 categories where each subcategory is a column within the corresponding table.  The last table is an employee information table.
 
-*  __Sample Output:__
+*  __Sample Output: (To maintain confidentiality the data examples shown are not “real” and are simulated data sets.)__
 An example report when the database was queried for the total man hours spent by the entire service department on each of the 13 categories.
 ![SampleOutput_EntireTeam_AllCategories.png](images/SampleOutput_EntireTeam_AllCategories.png)
 
